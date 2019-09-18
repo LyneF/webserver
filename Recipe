@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <center><h1>Fine French Dining<br/>Crêpes traditionnelles</h1></center>
+      <center><img src="IMG/Dawson.png" alt="Fine crepes" width="100" height="50"/></center>
+      <hr>
+    </head>
+    <body bgcolor="#87CEF0" style="font-family:agency fb;">
+        <h2>Ingredients</h2>
+        <p>250 ml (1 cup) of flour<br>15 ml (1tbsp) of sugar<br>1 pinch of salt<br>2 big eggs<br>375 ml (1 1/2 cups) of milk<br>30 ml (2tbsp) of vegetable oil<br>5 ml (1tsp) of nutmeg</p>
+		 
+        <h2>Preparation</h2>
+        <ol type="1">
+          <li>In a large bowl, mix flour, sugar, and salt. Add eggs and milk, then whip the batter.</li>
+          <li>Add vegetable oil and nutmeg and mix the batter.</li>
+          <li>Onto a griddle, scoop the batter using about 2 tablespoons per crepe. Tip and rotate the pan to spread the batter as thinly as possible. Brown on both sides and serve hot.</li>
+        </ol>
+        
+        <h4>How many times would you like to multiply this recipe?</h4>
+        <form>
+          <input type="radio" name="num" value="1" checked> 1<br>
+  			  <input type="radio" name="num" value="2"> 2<br>
+  			  <input type="radio" name="num" value="3"> 3
+		    </form>
+        
+        <p>The rest of this page will soon come. Expect more details. See you.</p>
+    </body>
+
+</html>
