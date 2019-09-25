@@ -21,12 +21,20 @@
         </ol>
         
         <h4>How many times would you like to multiply this recipe?</h4>
-        <form>
-        	<input type="radio" name="num" value="1" checked> 1<br>
-  		<input type="radio" name="num" value="2"> 2<br>
-  		<input type="radio" name="num" value="3"> 3
-	</form>
+        <form name="form">
+        	<input type="radio" name="num" value="1"> 1<br>
+  			<input type="radio" name="num" value="2"> 2<br>
+  			<input type="radio" name="num" value="3"> 3
+		</form>
         
+        <script>
+        var radios = document.forms["form"].elements["num"];
+        for(radio in radios) {
+          radios[radio].onclick = function() {
+              alert("Isn't this too much?");
+          }
+          }
+        </script>
         <p>The rest of this page will soon come. Expect more details. See you.</p>
     </body>
 
