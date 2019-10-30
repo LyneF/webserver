@@ -46,7 +46,7 @@
 		<p>The rest of this page will soon come. Expect more details. See you.</p>
 		
 	<h2>
-		If you're lost, click <a href="index.html">here</a>
+		If you're lost, click <a href="index.php">here</a>
 	</h2>
 	    
     </body>
