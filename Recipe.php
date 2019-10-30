@@ -8,7 +8,7 @@
         <hr>
     </head>
 	
-    <body bgcolor="#87CEF0" style="font-family:tw cen mt">
+    <body bgcolor="#158DEA" style="font-family:agency fb;">
         <h2>Ingredients</h2>
         <p>375 ml (1 1/2cups) of flour<br>45 ml (3tbsp) of sugar<br>1 pinch of salt<br>
 	2 large eggs<br>500 ml (2 cups) of milk<br>30 ml (2tbsp) of vegetable oil<br>5 ml (1tsp) of grinded nutmeg</p>
@@ -21,10 +21,35 @@
         </ol>
         
         <h4>How many times would you like to multiply this recipe?</h4>
-        <form name="form">
-        	<input type="radio" name="num" value="2"> 2<br>
-  		<input type="radio" name="num" value="3"> 3<br>
-  		<input type="radio" name="num" value="4"> 4
+	
+	<style>
+	.button {
+             	shape: circle;
+		background-color: black;
+                border: none;
+                color: #158DEA;
+                padding: 20px 30px;
+                text-align: center;
+                font-size: 20px;
+                cursor: pointer;
+                style="font-family:agency fb;"
+                }
+
+        .button:hover {
+		shape: circle;
+                background-color: black;
+                color: #EEEEEE;
+                style="font-family:agency fb;"
+                }
+	</style>
+	
+        <form name="form" action="action.php" method="post">
+        	<input type="radio" name="num" value="2"/> 2<br>
+  		<input type="radio" name="num" value="3"/> 3<br>
+  		<input type="radio" name="num" value="4"/> 4 <br>
+
+		<br>
+		<input class="button" type="submit"/>
 	</form>
         
         <script>
