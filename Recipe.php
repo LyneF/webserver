@@ -23,9 +23,9 @@
         <h4>How many times would you like to multiply this recipe?</h4>
         <form name="form">
         	<input type="radio" name="num" value="2"> 2<br>
-  			<input type="radio" name="num" value="3"> 3<br>
-  			<input type="radio" name="num" value="4"> 4
-		</form>
+  		<input type="radio" name="num" value="3"> 3<br>
+  		<input type="radio" name="num" value="4"> 4
+	</form>
         
         <script>
         var radios = document.forms["form"].elements["num"];
