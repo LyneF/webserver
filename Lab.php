@@ -32,8 +32,13 @@
 		</div>
 
 		<div text-align="left">
-			Student ID(s): <?php echo ($_POST['id1']); ?>, <?php echo ($_POST['id2']);?><br>Date of Experiment: <?php echo ($_POST['date1']); ?><br>Date submitted: <?php echo ($_POST['date2']); ?$
+			Student ID(s): <?php echo ($_POST['id1']); ?> and <?php echo ($_POST['id2']);?></br>
+			Date of Experiment: <?php echo ($_POST['date1']); ?><br>
+			Date submitted: <?php echo ($_POST['date2']); ?>
                 	Teacher: <?php echo ($_POST['teacher']); ?>
 		</div>
+		
+		<a href="Lab.php" download>Download your title page her!</a>
+
 	</body>
 </html>
