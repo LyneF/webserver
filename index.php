@@ -19,17 +19,5 @@
 		</ul>
 		</p>
 	
-		<div>
-			Your course is <?php echo ($_POST['coursename']); ?>, <?php echo ($_POST['coursenum']); ?>.
-			<br>
-			Your Lab is #<?php echo ($_POST['labnum']);?>, <?php  echo ($_POST['labname']); ?>.
-			<br>
-			Your name is <?php echo ($_POST['name1']); ?> and your partner name is <?php echo ($_POST['name2']); ?>.
-			<br>
-			<?php echo ($_POST['id1']); ?> and <?php echo ($_POST['id2']);?> worked on this lab, from <?php echo ($_POST['date1']); ?> to <?php echo ($_POST['date2']); ?> .
-			<br>
-			Your teacher is <?php echo ($_POST['teacher']); ?>.
-		</div>
-
 	</body>
 </html>

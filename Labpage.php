@@ -28,7 +28,7 @@
                 }
         </style>
 	
-        <form action="index.php" method="post">
+        <form action="Lab.php" method="post">
         	Course name:<br>
         	<input type="text" name="coursename"><br>
         	Course number:<br>
