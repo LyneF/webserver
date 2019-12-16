@@ -6812,7 +6812,7 @@
                                     margin-top: 47px
                                 }
                             }
-                        </style><img alt="Google" height="92" id="hplogo" src="./g00gie_files/googlelogo_color_272x92dp.png" srcset="/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, /images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 2x" style="padding-top:109px" width="272" onload="typeof google===&#39;object&#39;&amp;&amp;google.aft&amp;&amp;google.aft(this)" data-iml="1576512613532" data-atf="1">
+                        </style><img alt="Google" height="92" id="hplogo" src="./g00gie_files/googlelogo_color_272x92dp.png" srcset="./g00gie_files/googlelogo_color_272x92dp.png" style="padding-top:109px" width="272" onload="typeof google===&#39;object&#39;&amp;&amp;google.aft&amp;&amp;google.aft(this)" data-iml="1576512613532" data-atf="1">
                     </div>
                     <div style="height:118px"></div>
                     <div id="prm-pt" style="margin-top:12px">
