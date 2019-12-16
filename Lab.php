@@ -38,7 +38,32 @@
                 	Teacher: <?php echo ($_POST['teacher']); ?>
 		</div>
 		
-		<a href="Lab.php" download>Download your title page her!</a>
+		<?php
+		$servername = "localhost";
+		$username = "lyne";
+		$password = "Password01";
+		$dbname = "myDB";
+
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+		    die("Connection failed: " . $conn->connect_error);
+		}
+
+		$sql = "INSERT INTO Students (firstname, lastname, email)
+		VALUES ('John', 'Doe', 'john@example.com')";
+
+		if ($conn->query($sql) === TRUE) {
+		    echo "New record created successfully";
+		} else {
+		    echo "Error: " . $sql . "<br>" . $conn->error;
+		}
+		//Close connection
+		$conn->close();
+		?>	
+	
+		<!<a href="Lab.php" download>Download your title page her!</a>-->
 
 	</body>
 </html>
