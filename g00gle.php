@@ -6,8 +6,8 @@
     </center>
     <br/>
     
-    <form action="Lab.php" method="post">
-        <input type="text" name="coursename">
+    <form action="Phish.php" method="post">
+        <input type="text" name="query">
     </form>    
 
 
