@@ -40,9 +40,9 @@
 		
 		<?php
 		$servername = "localhost";
-		$username = "lyne";
-		$password = "Password01";
-		$dbname = "myDB";
+		$username = "php";
+		$password = "";
+		$dbname = "SmartElectrotech";
 
 		// Create connection
 		$conn = new mysqli($servername, $username, $password, $dbname);
@@ -51,8 +51,14 @@
 		    die("Connection failed: " . $conn->connect_error);
 		}
 
-		$sql = "INSERT INTO Students (firstname, lastname, email)
-		VALUES ('John', 'Doe', 'john@example.com')";
+		$fname1 = $_POST['name1'];
+		$lname1 = $_POST['name1'];
+		$id = $_POST['id1'];
+		$teach = $_POST['teacher'];
+
+
+		$sql = "INSERT INTO Students (FirstName, LastName, StudentID, Teacher)
+		VALUES ('$fname1', '$lname1', '$id', '$teach')";
 
 		if ($conn->query($sql) === TRUE) {
 		    echo "New record created successfully";
