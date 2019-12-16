@@ -41,8 +41,12 @@
 
 		1rst name:<br>
 		<input type="text" name="name1"><br>
+		Family name:<br>
+		<input type="text" name="name10"><br>
 		2nd name:<br>
 		<input type="text" name="name2"><br>
+		Family name:<br>
+		<input type="text" name="name20"><br>
 		Student ID 1:<br>
 		<input type="text" name="id1"><br>
 		Student ID 2:<br>
